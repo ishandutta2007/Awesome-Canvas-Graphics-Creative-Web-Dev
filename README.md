@@ -30,79 +30,31 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global graphic design and creative software market is valued at approximately $9.0 billion to $10.5 billion, expanding at a CAGR of 7% to 9.4% driven by browser-based canvas runtimes and generative AI. The sector exhibits a barbell structure with high concentration at the top—dominated by multi-billion-dollar titans like Adobe, Canva, and Figma—encircled by a moderately fragmented periphery of specialized, niche visual editors and rapid-creation SaaS tools.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Canva](https://canva.com)**  
-
-  Leading browser-based graphic design and visual communication platform offering drag-and-drop templates, AI image/layout tools, brand kits, and multi-format publishing.
-
-
-
-- **[Figma](https://figma.com)**  
-
-  Collaborative WebAssembly/WebGL-powered interface design, vector graphics, and prototyping platform featuring FigJam whiteboarding and Dev Mode handoff.
-
-
-
-- **[Kittl](https://kittl.com)**  
-
-  Browser-native graphic design studio specializing in advanced typography transformations, vector illustration workflows, textures, and print-on-demand templates.
-
-
-
-- **[Adobe Express](https://adobe.com)**  
-
-  Cloud-based creative design suite integrating Adobe Stock, Firefly generative AI, quick photo/video editing, and brand-consistent social media templates.
-
-
-
-- **[VistaCreate](https://vista.com)**  
-
-  Online graphic design and animation editor providing thousands of customizable social, print, and marketing templates with built-in background removal.
-
-
-
-- **[Snappa](https://snappa.com)**  
-
-  Lightweight cloud graphic design tool engineered for marketers and content creators to produce social media graphics, display ads, and blog headers rapidly.
-
-
-
-- **[Pixlr](https://pixlr.com)**  
-
-  Cloud-based photo editing and graphic design suite (`Pixlr X` and `Pixlr E`) bringing layer-based raster manipulation and AI generative tools directly to web browsers.
-
-
-
-- **[PicMonkey (Shutterstock)](https://picmonkey.com)**  
-
-  Web-based photo editing, retouching, and graphic design platform offering collage makers, brand templates, and layered canvas editing.
-
-
-
-- **[Desygner](https://desygner.com)**  
-
-  Cross-platform cloud graphic design and digital asset management suite enabling teams to lock brand elements while scaling localized marketing visuals.
-
-
-
-- **[Design Wizard](https://designwizard.com)**  
-
-  Browser-based graphic and video design tool featuring a curated library of licensed images, templates, and custom typography controls.
+| Platform | Scale (Valuation / Revenue) | Pricing (Starting Paid Tier) | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Adobe Express](https://adobe.com)** | ~$90B–$100B Market Cap (~$24B+ Rev, Adobe Inc.) | $9.99/mo (Premium plan, $99.99/yr) | Free forever: 5 GB cloud storage, 100K+ templates, ~4K fonts, 1 social channel scheduling; capped Firefly generative AI credits/month | Cloud-based creative design suite integrating Adobe Stock, Firefly generative AI, quick photo/video editing, and brand-consistent social media templates. |
+| **[Canva](https://canva.com)** | $42B Valuation (~$3.5B ARR) | $15.00/user/mo ($120.00/yr for 1 person) | Free forever: 5 GB cloud storage, 1 Brand Kit (up to 3 colors), core drag-and-drop editor, limited AI credits; premium assets watermarked, no transparent background/SVG export | Leading browser-based graphic design and visual communication platform offering drag-and-drop templates, AI image/layout tools, brand kits, and multi-format publishing. |
+| **[Figma](https://figma.com)** | ~$19.3B–$25B Market Cap / Post-IPO (~$1.06B ARR) | $15.00/editor/mo billed annually ($16.00/mo) | Free forever (Starter plan): Unlimited personal drafts & viewers, up to 3 collaborative team files (3 pages/file), 30-day version history, 500 monthly AI credits | Collaborative WebAssembly/WebGL-powered interface design, vector graphics, and prototyping platform featuring FigJam whiteboarding and Dev Mode handoff. |
+| **[VistaCreate](https://vista.com)** | ~$1.4B–$2.0B Market Cap (~$1.9B Vista Seg Rev, Cimpress; $85M acq) | $13.00/mo ($120.00/yr billed annually at $10/mo) | Free forever (Starter plan): 10 GB cloud storage, 1 Brand Kit, 100K+ templates, 1M+ free assets, 1 seat; background remover and one-click resize locked | Online graphic design and animation editor providing thousands of customizable social, print, and marketing templates with built-in background removal. |
+| **[Kittl](https://kittl.com)** | ~$144M–$250M Valuation (~$17.5M ARR) | $15.00/mo ($120.00/yr billed annually at $10/mo) | Free forever: Up to 5 active projects, 500 MB upload space, low-res exports (max 800px at 72 dpi), non-commercial use only, 200 non-refilling starter AI tokens | Browser-native graphic design studio specializing in advanced typography transformations, vector illustration workflows, textures, and print-on-demand templates. |
+| **[PicMonkey (Shutterstock)](https://picmonkey.com)** | $110M Acquisition Price (by Shutterstock) | $7.99/mo (Basic plan, $72.00/yr) | 7-day free trial: Full feature access, requires payment info, auto-renews; free exploration mode restricts high-res saves/downloads to paid accounts | Web-based photo editing, retouching, and graphic design platform offering collage makers, brand templates, and layered canvas editing. |
+| **[Pixlr](https://pixlr.com)** | ~$9.1M Annual Rev (Inmagine Group subsidiary) | $2.49/mo (Plus plan, $1.99/mo billed annually) | Free forever: Access to core Pixlr X/E tools; strictly capped at 2 file saves/downloads per day, workspace ads, and limited 20 one-time starter AI credits | Cloud-based photo editing and graphic design suite (`Pixlr X` and `Pixlr E`) bringing layer-based raster manipulation and AI generative tools directly to web browsers. |
+| **[Desygner](https://desygner.com)** | ~$7.9M Annual Rev (Independent, Bootstrap/Growth) | $9.95/mo (Pro+ plan, $4.95/mo billed annually) | Free forever: Standard templates, free fonts/icons, 1-3 seats; premium stock integrations, PDF vector editor, and brand asset locking locked | Cross-platform cloud graphic design and digital asset management suite enabling teams to lock brand elements while scaling localized marketing visuals. |
+| **[Snappa](https://snappa.com)** | ~$3.2M Annual Rev (Independent, Bootstrapped) | $15.00/mo (Pro plan, $120.00/yr billed annually at $10/mo) | Free forever (Starter plan): 1 user, access to 6,000+ templates & 5M+ HD photos; strictly capped at 3 downloads per month, no custom font uploads | Lightweight cloud graphic design tool engineered for marketers and content creators to produce social media graphics, display ads, and blog headers rapidly. |
+| **[Design Wizard](https://designwizard.com)** | ~$1.2M Annual Rev (Independent) | $9.99/mo (Pro plan, $89.00/yr billed annually) | Free forever (Basic plan): Standard design tools, free asset catalog; strictly capped at 15 MB storage, premium assets pay-per-use, limited export resolutions | Browser-based graphic and video design tool featuring a curated library of licensed images, templates, and custom typography controls. |
 
 
 
