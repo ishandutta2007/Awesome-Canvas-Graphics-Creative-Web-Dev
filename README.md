@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Canvas-Graphics-Creative-Web-Dev/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Canvas-Graphics-Creative-Web-Dev?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Canvas-Graphics-Creative-Web-Dev/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Canvas-Graphics-Creative-Web-Dev?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Canvas-Graphics-Creative-Web-Dev/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Canvas-Graphics-Creative-Web-Dev?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Canvas-Graphics-Creative-Web-Dev/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Canvas-Graphics-Creative-Web-Dev?style=flat-square" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Canvas-Graphics-Creative-Web-Dev/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
@@ -27,7 +27,7 @@ This repository tracks notable **SaaS/hosted platforms** and **open-source proje
 - **SaaS category leaders**: Canva, Figma, Adobe Express, Kittl, VistaCreate, Pixlr, PicMonkey, Desygner, Snappa, and Design Wizard.
 - **Open-source ecosystem**: Penpot, Excalidraw, tldraw, Three.js, Anime.js, PixiJS, Phaser, Fabric.js, Graphite, p5.js, Rough.js, Motion Canvas, Paper.js, Konva.js, Satori, Cropper.js, SVG.js, Raphael, miniPaint, and CanvasAnvil.
 
-Contributions are welcome! Please open a Pull Request to suggest new tools or update pricing and star counts.
+Contributions are welcome! Please open a Pull Request to suggest new tools or update pricing and Stars_Counts.
 
 ---
 
@@ -71,7 +71,7 @@ The global graphic design and creative software market is valued at approximatel
 
 ## 🔓 Open-Source GitHub Projects
 
-*Open-source repositories sorted descending by GitHub star counts. Each repo badge links directly to its stargazers page.*
+*Open-source repositories sorted descending by GitHub Stars_Counts. Each repo badge links directly to its stargazers page.*
 
 1. **[Three.js (`mrdoob/three.js`)](https://github.com/mrdoob/three.js)** [![Stars](https://img.shields.io/github/stars/mrdoob/three.js?style=social&color=white)](https://github.com/mrdoob/three.js/stargazers)  
    The de facto standard JavaScript 3D WebGL and WebGPU rendering library used worldwide for interactive canvas visualizer experiences, immersive creative web dev, and browser animations.
