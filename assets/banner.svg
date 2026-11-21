@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="40%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Glowing Orbs Filters -->
+    <filter id="blurOrb1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="80" />
+    </filter>
+    <filter id="blurOrb2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70" />
+    </filter>
+
+    <!-- Canvas Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.8" stroke-opacity="0.3" />
+      <circle cx="40" cy="40" r="1.5" fill="#64748b" fill-opacity="0.4" />
+    </pattern>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.85" />
+    </linearGradient>
+  </defs>
+
+  <!-- Style & Dynamic Animations -->
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 900;
+      font-size: 46px;
+      fill: #ffffff;
+      letter-spacing: -1px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      fill: #94a3b8;
+    }
+    .badge-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+
+    /* Ambient Pulsing Glowing Orbs */
+    @keyframes pulseOrbA {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.15) translate(40px, -20px); opacity: 0.55; }
+    }
+    @keyframes pulseOrbB {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.3; }
+      50% { transform: scale(1.2) translate(-30px, 30px); opacity: 0.5; }
+    }
+    @keyframes pulseWave {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -1000; }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .orb-a {
+      animation: pulseOrbA 10s ease-in-out infinite;
+      transform-origin: 250px 150px;
+    }
+    .orb-b {
+      animation: pulseOrbB 12s ease-in-out infinite;
+      transform-origin: 950px 250px;
+    }
+    .animated-wave {
+      stroke-dasharray: 12 8;
+      animation: pulseWave 35s linear infinite;
+    }
+    .float-item-1 { animation: floatPill 5s ease-in-out infinite; }
+    .float-item-2 { animation: floatPill 6s ease-in-out 1s infinite; }
+    .float-item-3 { animation: floatPill 5.5s ease-in-out 2s infinite; }
+    .float-item-4 { animation: floatPill 6.5s ease-in-out 1.5s infinite; }
+  </style>
+
+  <!-- Deep Workspace Background -->
+  <rect width="1200" height="420" fill="url(#bgGradient)" />
+
+  <!-- Animated Glowing Atmospheric Orbs (Background layer) -->
+  <circle class="orb-a" cx="220" cy="140" r="190" fill="#38bdf8" filter="url(#blurOrb1)" />
+  <circle class="orb-b" cx="980" cy="240" r="210" fill="#ec4899" filter="url(#blurOrb2)" />
+  <circle cx="600" cy="200" r="150" fill="#6366f1" opacity="0.2" filter="url(#blurOrb1)" />
+
+  <!-- Canvas Designer Grid Layer -->
+  <rect width="1200" height="420" fill="url(#grid)" />
+
+  <!-- Dynamic Animated Bezier Paths (Creative Canvas Curves) -->
+  <path class="animated-wave" d="M -50 320 C 250 180, 450 390, 750 260 S 1050 150, 1250 280" fill="none" stroke="url(#accentGrad)" stroke-width="2.5" opacity="0.45" />
+  <path class="animated-wave" d="M -50 360 C 300 240, 500 420, 850 300 S 1100 200, 1250 320" fill="none" stroke="#06b6d4" stroke-width="1.5" opacity="0.25" />
+
+  <!-- Top Category Indicator Pill -->
+  <g transform="translate(435, 42)">
+    <rect width="330" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="18" cy="16" r="4" fill="#38bdf8" />
+    <text x="32" y="21" class="badge-label" fill="#38bdf8">CURATED ECOSYSTEM DIRECTORY</text>
+  </g>
+
+  <!-- Main Title & Subtitle in Clear Unobstructed Foreground -->
+  <g transform="translate(600, 142)">
+    <!-- Main Headline with Gradient Fill Accent -->
+    <text x="0" y="0" text-anchor="middle" class="title-text">
+      Awesome <tspan fill="url(#accentGrad)">Canvas Graphics</tspan> &amp; Creative Web
+    </text>
+
+    <!-- Subtitle Description -->
+    <text x="0" y="42" text-anchor="middle" class="subtitle-text">
+      HTML5 Canvas • WebGL / WebGPU • Infinite Whiteboards • Vector Studios • 2D Engines
+    </text>
+  </g>
+
+  <!-- Dynamic Interactive Ecosystem Pills in Lower Row (Foreground Floating Elements) -->
+  <g transform="translate(140, 275)">
+    <!-- Pill 1: Canvas Editors -->
+    <g class="float-item-1" transform="translate(0, 0)">
+      <rect width="210" height="48" rx="24" fill="url(#pillGrad)" stroke="#38bdf8" stroke-width="1.2" />
+      <text x="24" y="29" class="pill-text">🎨 Canvas Editors</text>
+    </g>
+
+    <!-- Pill 2: WebGL & 2D Engines -->
+    <g class="float-item-2" transform="translate(230, 0)">
+      <rect width="230" height="48" rx="24" fill="url(#pillGrad)" stroke="#818cf8" stroke-width="1.2" />
+      <text x="24" y="29" class="pill-text">⚡ WebGL &amp; 2D Engines</text>
+    </g>
+
+    <!-- Pill 3: Infinite Whiteboards -->
+    <g class="float-item-3" transform="translate(480, 0)">
+      <rect width="230" height="48" rx="24" fill="url(#pillGrad)" stroke="#a855f7" stroke-width="1.2" />
+      <text x="24" y="29" class="pill-text">📐 Infinite Canvases</text>
+    </g>
+
+    <!-- Pill 4: Creative Generative Dev -->
+    <g class="float-item-4" transform="translate(730, 0)">
+      <rect width="200" height="48" rx="24" fill="url(#pillGrad)" stroke="#ec4899" stroke-width="1.2" />
+      <text x="22" y="29" class="pill-text">✨ Creative Toolkits</text>
+    </g>
+  </g>
+
+  <!-- Subtle Bottom Border Bar -->
+  <rect x="0" y="416" width="1200" height="4" fill="url(#accentGrad)" />
+</svg>
